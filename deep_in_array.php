@@ -15,12 +15,35 @@ error_reporting(E_ALL);
 
 $arr = array([1,2,8,9],[2,4,9,12], [4,7,10,13], [6,8,11,15]);
 $findParam = 9;
-var_dump( deep_in_array($arr, $findParam) );
-var_dump( deep_in_array2($arr, $findParam) );
-var_dump( deep_in_array3($arr, $findParam) );
+//var_dump( deep_in_array($arr, $findParam) );
+//var_dump( deep_in_array2($arr, $findParam) );
+//var_dump( deep_in_array3($arr, $findParam) );
+var_dump( find($arr, $findParam) );
 
 /**
- * 循环方式
+ * 冒泡——时间复杂付O(n^2)
+ * @param $arr
+ * @param $findParam
+ * @return bool
+ */
+function find($arr, $findParam) {
+    //将数据放在坐标右上角array[0][col]
+    $row = 0; //行
+    $col = count($arr[0]) - 1;//列
+        while ($row <= count($arr) - 1 && $col >= 0) {
+            if ($findParam > $arr[$row][$col])
+            $row++;//遇到大的下移
+            else if ($findParam < $arr[$row][$col])
+            $col--;//遇到小的左移
+            else
+                return true;
+        }
+        return false;
+}
+
+
+/**
+ * 循环方式——冒泡
  * @param array $arr 待查二维数组
  * @param int $findParam
  * @return bool
