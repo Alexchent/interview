@@ -11,15 +11,10 @@
  * 例如输入字符串abc，则输出由字符a,b,c所能排列出来的所有字符串
  * abc、acb、bac、bca、cab和cba
  *
- *
- * 分析：
- *
  */
 
 $str = 'abcd';
 test3(str_split($str), 0, strlen($str)-1);
-
-
 
 
 function test3(&$arr,$start,$len){
