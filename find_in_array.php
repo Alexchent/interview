@@ -11,18 +11,13 @@
  * 例如输入1，2，3，4，5，6，7，8这8个数字，则最大的3数字为8，7，6
  */
 
-$arr = [1,2,3,4,5,6,7,8];
-$a = 's';
-$b = 1;
-echo null;
-//echo $a,$b;
-//print $a,$b;
-find_in_array($arr, 3);
+$arr = [1,2,3,4,5,6,7];
+
+find_in_array($arr, 4);
 
 function find_in_array($arr, $k) {
     rsort($arr);
     for ($i=0; $i< $k; $i++) {
-//        echo $arr[$i];
         print($arr[$i]);
         echo PHP_EOL;
     }
