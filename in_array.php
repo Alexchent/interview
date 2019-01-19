@@ -27,4 +27,23 @@ function find($need, $arr) {
     }
 }
 
-var_dump(find($x, $a));
+function find2($need, array $arr) {
+    $start = 0;
+    $end = count($arr) - 1;
+    while ($start <= $end) {
+        $mid = floor(($start + $end) / 2);
+
+        if ($arr[$mid] == $need) return $mid;
+
+        if ($arr[$mid] > $need) {
+            $end = $mid - 1;
+        }
+
+        if($arr[$mid] < $need) {
+            $start = $mid + 1;
+        }
+    }
+    return false;
+}
+
+var_dump(find2($x, $a));
