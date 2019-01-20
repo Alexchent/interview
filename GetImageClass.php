@@ -43,7 +43,8 @@ class GetImageClass{
 
 		if(preg_match('/200/',$headers[0])){
 			$ext_name = strrchr($url, '.'); //获取图片的扩展名
-			if($ext_name != '.gif' && $ext_name != '.jpg' && $ext_name != '.bmp' && $ext_name != '.png') {
+//			if($ext_name != '.gif' && $ext_name != '.jpg' && $ext_name != '.bmp' && $ext_name != '.png') {
+			if(!in_array($ext_name, ['.gif','.jpg','.bmp','.png'], true)) {
 				return false; //格式不在允许的范围
 			}
 
