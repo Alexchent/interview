@@ -1,6 +1,8 @@
 <?php
 /**
  * 实现codehero2——活动秒杀
+ *
+ * 压力测试：ab -c 10 -n 1000 http://localhost:8888/interview/codehero/kill_redis.php
  */
 
 $eventId = isset($_GET['eventId']) ? intval($_GET['eventId']) : 1;
