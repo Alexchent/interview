@@ -1,4 +1,7 @@
 <?php
+/**
+ * 实现codehero2——活动秒杀
+ */
 
 $eventId = isset($_GET['eventId']) ? intval($_GET['eventId']) : 1;
 $userId = isset($_GET['userId']) ? intval($_GET['userId']) : rand(1, 100000000);
