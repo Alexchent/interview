@@ -5,3 +5,4 @@
  * Date: 2019/1/26
  * Time: 4:31 PM
  */
+phpinfo();
