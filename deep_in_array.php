@@ -13,8 +13,13 @@ error_reporting(E_ALL);
  * 时间复杂度尽可能低。（请说明时间复杂度）
  */
 
-$arr = array([1,2,8,9],[2,4,9,12], [4,7,10,13], [6,8,11,15]);
-$findParam = 9;
+$arr = array(
+    [1,2,8,9],
+    [2,4,9,12],
+    [4,7,10,13],
+    [6,8,11,15]
+);
+$findParam = 7;
 //var_dump( deep_in_array($arr, $findParam) );
 //var_dump( deep_in_array2($arr, $findParam) );
 //var_dump( deep_in_array3($arr, $findParam) );

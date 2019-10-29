@@ -1,5 +1,6 @@
 <?php
 /**
+ * redis 订阅模型
  * Created by PhpStorm.
  * User: chentao
  * Date: 2019/4/23
@@ -8,9 +9,10 @@
 
 while (true) {
     //ini_set('default_socket_timeout', -1);
+    $chancel = 'email';
     $redis = new Redis();
-    $redis->pconnect('127.0.0.1','6379');
-    $redis->subscribe(['testpub'],'callback');
+    $redis->connect('127.0.0.1','6379');
+    $redis->subscribe([$chancel],'callback');
     sleep(0.1);
 }
 

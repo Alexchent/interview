@@ -43,16 +43,14 @@ class GetImageClass{
 
 		if(preg_match('/200/',$headers[0])){
 			$ext_name = strrchr($url, '.'); //获取图片的扩展名
-//			if($ext_name != '.gif' && $ext_name != '.jpg' && $ext_name != '.bmp' && $ext_name != '.png') {
 			if(!in_array($ext_name, ['.gif','.jpg','.bmp','.png'], true)) {
 				return false; //格式不在允许的范围
 			}
 
 			$this->makedir($dir);//创建保存图片的文件夹
-			if($filename == '') {
-				$filename = $dir.time().$ext_name; //以时间戳另起名
-			}
-//echo $filename,"\n";die;
+			if($filename == '') $filename = $dir.time().$ext_name; //以时间戳另起名
+
+            //echo $filename,"\n";die;
 			//开始捕获
 			ob_start();
 			readfile($url);
