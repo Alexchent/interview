@@ -300,4 +300,21 @@ class Tools
         return is_null(json_decode($str, true));
     }
 
+    /**
+     * 获取当前客户端的IP地址
+     * @return array|false|string
+     */
+    public static function getIp()
+    {
+        if($ip = $_SERVER['REMOTE_ADDR']) return $ip;
+        if($ip = getenv('HTTP_CLIENT_IP')) return $ip;
+        if($ip = getenv('HTTP_X_FORWARDED_FOR')) return $ip;
+    }
+
+    public static function getServerIp()
+    {
+        return $_SERVER['SERVER_ADDR'];
+    }
+
+
 }

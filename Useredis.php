@@ -1,5 +1,5 @@
 <?php
-	class Useredis{
+class Useredis{
         const HOST="127.0.0.1";
         const PORT="6379";
         public $redis;
