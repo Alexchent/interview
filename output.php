@@ -10,7 +10,7 @@
 //var_dump(is_null([]));
 //var_dump(false == []);
 //var_dump([] == null);
-
+//die;
 //utf-8中文占3个字符
 //echo mb_substr($str = '欢迎来我中国，you are welocme!', 0, 7)."\n";
 //echo substr($str = '欢迎来我中国，you are welocme!', 0, 7);
@@ -26,8 +26,8 @@ echo "使用echo()输出：".$test,$b."\n";
 
 print $test.$array."\n";
 
-print_r($array);
+//print_r($array);
 
-var_dump($array);
+//var_dump($array);
 
 ?>

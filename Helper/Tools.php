@@ -316,5 +316,32 @@ class Tools
         return $_SERVER['SERVER_ADDR'];
     }
 
+    /**
+     * 求a相对于b的路径
+     *
+     * @param $a
+     * @param $b
+     * @return string
+     */
+    public static function getRelativePath($a, $b)
+    {
+        $path = '';
+        $arr = explode('/', $a);
+        $brr = explode('/', $b);
+//        var_dump($brr);
+        $same = array_intersect_assoc($arr, $brr);//获取两个数组相同的部分
+//var_dump($same);
+        $dir = array_diff_assoc($brr, $same);
+//        var_dump($dir);die;
+        for($i = 1; $i <= count($dir)-1; $i++) {
+            $path .='../';
+        }
+
+        $path .= str_replace(implode('/',$same).'/','', $a);
+
+        return $path;
+    }
+
+
 
 }

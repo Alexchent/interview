@@ -87,4 +87,25 @@ function array_merge_sort2($a, $b)
     return $result;
 }
 
-print_r(array_merge_sort2($a, $b));
+
+function sort_mix_array($a, $b)
+{
+    if(count($a) == 0) return $b;
+
+    $result = [];
+    $i=0;
+    //以a数组中的元素为基数，将b中比基数小的先存入结果数组，再将基数存入；再取出a中的下一个数对b剩下的数组重复以上操作，直到所有元素存入结果数组
+    foreach ($a as $k => $item) {
+
+        while (isset($b[$i]) && $item > $b[$i]) {
+            $result[] = $b[$i];
+            $i++;
+        }
+
+        $result[] = $item;
+    }
+    return $result;
+}
+
+
+print_r(sort_mix_array($a, $b));
