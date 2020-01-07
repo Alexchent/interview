@@ -12,6 +12,8 @@ include 'Helper/Tools.php';
 include 'cli/pachong.php';
 
 
+echo 111;die;
+
 $redis = new Redis();
 $redis->pconnect('127.0.0.1','6379');
 

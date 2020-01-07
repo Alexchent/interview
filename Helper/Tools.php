@@ -343,5 +343,13 @@ class Tools
     }
 
 
+    public static function getmicrotime(){
+        list($u,$s) = explode('', microtime());
+        $num = (float)$u + (float)$s;
+        return sprintf("%.4f", $num);
+
+    }
+
+
 
 }

@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: chentao * Date: 2019/12/15 * Time: 11:41 AM *///判断5个数字组合为顺子。0可以准换为任何数function isShunzi($arr){    $brr = array_count_values($arr);    foreach ($brr as $key => $value) {    }}
