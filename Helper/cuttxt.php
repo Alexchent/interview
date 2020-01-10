@@ -30,7 +30,6 @@ class cutTXT {
 
     protected $message;
 
-//    private static $instance;
 
 
     public function __construct(){
@@ -49,15 +48,6 @@ class cutTXT {
      */
     public function setPath($path){
         return $this->path = $path;
-    }
-
-    public function spilt($fileName, $path, $mode, $size){
-        $this->setPath($path);
-        if($mode === 1) {
-            $this->cutTXTbyNumber($fileName,$size);
-        }else if($mode === 2){
-
-        }
     }
 
     /**复制文件,成功返回true,失败返回false
@@ -88,9 +78,8 @@ class cutTXT {
     /**将文件分割为$number份
      * @param $fileName
      * @param $number
-     * @return int
      */
-    function cutTXTbyNumber($fileName, $number= 2) {
+    public static function cutTXTbyNumber($fileName, $number= 2) {
 
             if(file_exists($fileName)){
                 $count = 1;
@@ -100,11 +89,8 @@ class cutTXT {
                 $fileSize = filesize($fileName);
 
                 $size = ceil($fileSize/$number);   //进一取整,每个分割块的大小
-
                 if($size ==1) {
-                    $this->message['msg'] = "太小不能分割";
-                    $this->message['code'] = -2;
-                    return false;
+                    echo "太小不能分割";die;
                 }
 
                 $pathinfo = pathinfo($fileName);
@@ -116,17 +102,13 @@ class cutTXT {
                         fwrite($handle, fread($fp, $size));
                         echo $count++;
                     }else{
-                        $this->message['msg'] = "文件创建失败";
-                        $this->message['code'] = -3;
-                        return false;
+                        echo "文件创建失败\n";
                     }
                 }
                 fclose($fp);
                 echo "success";
             }else{
-                $this->message['msg'] = "路径或文件名错误";
-                $this->message['code'] = -1;
-                return false;
+                echo "路径或文件名错误";
             }
 
     }
