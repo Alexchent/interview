@@ -75,11 +75,12 @@ class cutTXT {
     }
 
 
-    /**将文件分割为$number份
-     * @param $fileName
-     * @param $number
+    /**
+     * 将文件分割为$number份
+     * @param string $fileName  文件
+     * @param int $number    分割份数
      */
-    public static function cutTXTbyNumber($fileName, $number= 2) {
+    public static function cutTXTbyNumber($fileName, int $number= 2) {
 
             if(file_exists($fileName)){
                 $count = 1;

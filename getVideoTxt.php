@@ -12,7 +12,6 @@ include 'Helper/Tools.php';
 include 'cli/pachong.php';
 
 
-echo 111;die;
 
 $redis = new Redis();
 $redis->pconnect('127.0.0.1','6379');
@@ -20,7 +19,7 @@ $redis->pconnect('127.0.0.1','6379');
 
 //$res = $redis->sMembers('video_'.URL);
 $res = $redis->sDiff('video_'.URL, 'video');//获取差集，key1为主体
-//var_dump($res);die;
+var_dump($res);die;
 foreach ($res as $i){
     file_put_contents("video1.txt", $i."\n",FILE_APPEND);
 }

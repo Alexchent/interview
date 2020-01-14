@@ -13,14 +13,14 @@
  *
  */
 
-$str = 'abcd';
+$str = 'abc';
 test3(str_split($str), 0, strlen($str)-1);
 
 
 function test3(&$arr,$start,$len){
 
     if ($start== $len){
-        echo join('', $arr),PHP_EOL;        //④
+        echo implode('', $arr),PHP_EOL;        //④
     }else {
 
         for ($i = $start; $i <= $len; $i++) {

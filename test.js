@@ -1,1 +1,0 @@
-function f1(){    n=999;}f1();alert(n); // 999
