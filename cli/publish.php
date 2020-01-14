@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: chentao * Date: 2019/12/17 * Time: 4:51 PM *///require '../Queue/Rabbit.php';$config = array("host" => "127.0.0.1", "port" => "5672", "login" => "admin", "password" => "admin");//$rabbit = new \Queue\Rabbit($config);//$rabbit->publish('queueName_test', time());$connect = new AMQPConnection($config);$connect->connect();

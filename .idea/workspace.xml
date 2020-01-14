@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b3758b21-9eee-47d2-a8ab-6b0bba3b1e51" name="Default" comment="更新">
+      <change beforePath="" afterPath="$PROJECT_DIR$/cli/Consumer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cli/Index.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/cli/publish.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/test.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/tindex.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/autoload.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/composer/installed.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/CREDITS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/INSTALL" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/INSTALL.fr.utf8" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/LICENSE" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/NEWS" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/README.md" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/TODO" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/VERSION" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/WHATSNEW" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/WYSIWYG" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/composer.json" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/extras/ConfigDoc/HTMLXSLTProcessor.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/extras/FSTools.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/extras/FSTools/File.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/extras/HTMLPurifierExtras.auto.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/extras/HTMLPurifierExtras.autoload-legacy.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/extras/HTMLPurifierExtras.autoload.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/extras/HTMLPurifierExtras.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/extras/README" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier.auto.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier.autoload-legacy.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier.autoload.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier.composer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier.func.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier.includes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier.kses.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier.path.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier.safe-includes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Arborize.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrCollections.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/AlphaValue.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/Background.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/BackgroundPosition.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/Border.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/Color.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/Composite.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/DenyElementDecorator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/Filter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/Font.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/FontFamily.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/Ident.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/ImportantDecorator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/Length.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/ListStyle.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/Multiple.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/Number.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/Percentage.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/TextDecoration.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/CSS/URI.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Clone.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Enum.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/HTML/Bool.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/HTML/Class.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/HTML/Color.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/HTML/FrameTarget.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/HTML/ID.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/HTML/Length.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/HTML/LinkTypes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/HTML/MultiLength.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/HTML/Nmtokens.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/HTML/Pixels.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Integer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Lang.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Switch.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/Text.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Email.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Email/SimpleCheck.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/Host.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv4.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrDef/URI/IPv6.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/Background.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/BdoDir.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/BgColor.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/BoolToCSS.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/Border.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/EnumToCSS.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/ImgRequired.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/ImgSpace.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/Input.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/Lang.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/Length.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/Name.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/NameSync.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/Nofollow.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/SafeEmbed.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/SafeObject.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/SafeParam.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/ScriptRequired.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/TargetBlank.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/TargetNoopener.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/TargetNoreferrer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTransform/Textarea.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrTypes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/AttrValidator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Bootstrap.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/CSSDefinition.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Chameleon.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Custom.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Empty.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/List.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Optional.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Required.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/StrictBlockquote.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ChildDef/Table.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Config.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/Builder/ConfigSchema.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/Builder/Xml.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/Exception.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/Interchange.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/Interchange/Directive.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/Interchange/Id.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/InterchangeBuilder.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/Validator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/ValidatorAtom.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema.ser" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.AllowedClasses.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.AllowedFrameTargets.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.AllowedRel.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.AllowedRev.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.ClassUseCDATA.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.DefaultImageAlt.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.DefaultInvalidImage.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.DefaultInvalidImageAlt.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.DefaultTextDir.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.EnableID.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.ForbiddenClasses.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.ID.HTML5.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.IDBlacklist.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.IDBlacklistRegexp.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.IDPrefix.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Attr.IDPrefixLocal.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/AutoFormat.AutoParagraph.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/AutoFormat.Custom.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/AutoFormat.DisplayLinkURI.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/AutoFormat.Linkify.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/AutoFormat.PurifierLinkify.DocURL.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/AutoFormat.PurifierLinkify.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/AutoFormat.RemoveEmpty.Predicate.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/AutoFormat.RemoveEmpty.RemoveNbsp.Exceptions.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/AutoFormat.RemoveEmpty.RemoveNbsp.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/AutoFormat.RemoveEmpty.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/AutoFormat.RemoveSpansWithoutAttributes.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/CSS.AllowDuplicates.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/CSS.AllowImportant.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/CSS.AllowTricky.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/CSS.AllowedFonts.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/CSS.AllowedProperties.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/CSS.DefinitionRev.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/CSS.ForbiddenProperties.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/CSS.MaxImgLength.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/CSS.Proprietary.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/CSS.Trusted.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Cache.DefinitionImpl.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Cache.SerializerPath.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Cache.SerializerPermissions.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.AggressivelyFixLt.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.AggressivelyRemoveScript.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.AllowHostnameUnderscore.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.AllowParseManyTags.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.CollectErrors.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.ColorKeywords.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.ConvertDocumentToFragment.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.DirectLexLineNumberSyncInterval.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.DisableExcludes.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.EnableIDNA.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.Encoding.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.EscapeInvalidChildren.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.EscapeInvalidTags.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.EscapeNonASCIICharacters.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.HiddenElements.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.Language.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.LegacyEntityDecoder.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.LexerImpl.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.MaintainLineNumbers.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.NormalizeNewlines.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.RemoveInvalidImg.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.RemoveProcessingInstructions.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Core.RemoveScriptContents.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Filter.Custom.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Filter.ExtractStyleBlocks.Escaping.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Filter.ExtractStyleBlocks.Scope.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Filter.ExtractStyleBlocks.TidyImpl.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Filter.ExtractStyleBlocks.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Filter.YouTube.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.Allowed.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.AllowedAttributes.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.AllowedComments.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.AllowedCommentsRegexp.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.AllowedElements.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.AllowedModules.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.Attr.Name.UseCDATA.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.BlockWrapper.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.CoreModules.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.CustomDoctype.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.DefinitionID.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.DefinitionRev.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.Doctype.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.FlashAllowFullScreen.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.ForbiddenAttributes.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.ForbiddenElements.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.MaxImgLength.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.Nofollow.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.Parent.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.Proprietary.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.SafeEmbed.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.SafeIframe.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.SafeObject.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.SafeScripting.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.Strict.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.TargetBlank.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.TargetNoopener.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.TargetNoreferrer.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.TidyAdd.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.TidyLevel.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.TidyRemove.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.Trusted.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/HTML.XHTML.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Output.CommentScriptContents.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Output.FixInnerHTML.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Output.FlashCompat.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Output.Newline.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Output.SortAttr.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Output.TidyFormat.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/Test.ForceNoIconv.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.AllowedSchemes.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.Base.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.DefaultScheme.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.DefinitionID.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.DefinitionRev.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.Disable.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.DisableExternal.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.DisableExternalResources.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.DisableResources.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.Host.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.HostBlacklist.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.MakeAbsolute.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.Munge.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.MungeResources.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.MungeSecretKey.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.OverrideAllowedSchemes.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/URI.SafeIframeRegexp.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ConfigSchema/schema/info.ini" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ContentSets.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Context.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Definition.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Decorator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Decorator/Cleanup.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Decorator/Memory.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Decorator/Template.php.in" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Null.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCache/Serializer/README" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DefinitionCacheFactory.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Doctype.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/DoctypeRegistry.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ElementDef.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Encoder.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/EntityLookup.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/EntityLookup/entities.ser" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/EntityParser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ErrorCollector.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/ErrorStruct.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Exception.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/ExtractStyleBlocks.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Filter/YouTube.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Generator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLDefinition.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Bdo.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/CommonAttributes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Edit.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Forms.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Hypertext.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Iframe.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Image.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Legacy.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/List.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Name.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Nofollow.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/NonXMLCommonAttributes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Object.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Presentation.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Proprietary.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Ruby.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeEmbed.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeObject.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/SafeScripting.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Scripting.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/StyleAttribute.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tables.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Target.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetBlank.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoopener.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/TargetNoreferrer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Text.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Name.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Proprietary.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Strict.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/Transitional.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTML.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/Tidy/XHTMLAndHTML4.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModule/XMLCommonAttributes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/HTMLModuleManager.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/IDAccumulator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/AutoParagraph.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/DisplayLinkURI.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/Linkify.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/PurifierLinkify.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveEmpty.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/RemoveSpansWithoutAttributes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Injector/SafeObject.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Language.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Language/classes/en-x-test.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Language/messages/en-x-test.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Language/messages/en-x-testmini.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Language/messages/en.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/LanguageFactory.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Length.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Lexer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Lexer/DOMLex.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Lexer/DirectLex.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Lexer/PH5P.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Comment.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Element.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Node/Text.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/PercentEncoder.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Printer.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Printer/CSSDefinition.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Printer/ConfigForm.css" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Printer/ConfigForm.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Printer/ConfigForm.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Printer/HTMLDefinition.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/PropertyList.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/PropertyListIterator.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Queue.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/Composite.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/Core.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/FixNesting.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/MakeWellFormed.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/RemoveForeignElements.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Strategy/ValidateAttributes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/StringHash.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/StringHashParser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Font.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TagTransform/Simple.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Token.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Token/Comment.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Token/Empty.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Token/End.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Token/Start.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Token/Tag.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Token/Text.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/TokenFactory.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URI.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIDefinition.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIFilter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIFilter/DisableExternal.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIFilter/DisableExternalResources.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIFilter/DisableResources.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIFilter/HostBlacklist.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIFilter/MakeAbsolute.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIFilter/Munge.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIFilter/SafeIframe.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIParser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/data.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/file.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/ftp.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/http.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/https.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/mailto.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/news.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/nntp.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URIScheme/tel.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/URISchemeRegistry.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/UnitConverter.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Flexible.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParser/Native.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/VarParserException.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/library/HTMLPurifier/Zipper.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/.htaccess" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/PH5P.patch" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/PH5P.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/add-vimline.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/common.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/compile-doxygen.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/config-scanner.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/flush-definition-cache.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/flush.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/generate-entity-file.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/generate-includes.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/generate-ph5p-patch.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/generate-schema-cache.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/generate-standalone.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/merge-library.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/old-extract-schema.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/old-remove-require-once.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/old-remove-schema-def.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/regenerate-docs.sh" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/remove-trailing-whitespace.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/maintenance/rename-config.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/package.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/phpdoc.ini" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/modx.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/.gitignore" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/Changelog" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/INSTALL" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/README" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/config.default.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/htmlpurifier.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/info.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/init-config.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/migrate.bbcode.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/settings.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/settings/form.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/settings/migrate-sigs-form.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/settings/migrate-sigs.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/plugins/phorum/settings/save.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/test-settings.sample.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/test-settings.travis.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/tests/path2class.func.php" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/ezyang/htmlpurifier/update-for-release" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/vendor/swoole/ide-helper" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/video.txt" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/video1.txt" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change beforePath="$PROJECT_DIR$/.idea/interview.iml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/suanfa/Tool.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/suanfa/binarySearch.php" afterPath="$PROJECT_DIR$/suanfa/binarySearch.php" />
+      <change beforePath="$PROJECT_DIR$/suanfa/in_array.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/suanfa/str.php" afterPath="" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="test.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding>
+                <element signature="e#6#91#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="pachong.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli/pachong.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="630">
+              <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Services/services.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Server.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vendor/swoole/ide-helper/output/swoole/namespace/Server.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="795">
+              <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="client.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Services/client.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+              <folding>
+                <element signature="e#6#90#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.txt" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cuttxt.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Helper/cuttxt.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+              <folding>
+                <element signature="e#6#83#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codehero.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codehero2/codehero.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="codehero.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/codehero3/codehero.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ip</find>
+      <find>冒泡</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/buwei.php" />
+        <option value="$PROJECT_DIR$/suanfa/in_array.php" />
+        <option value="$PROJECT_DIR$/subday.php" />
+        <option value="$PROJECT_DIR$/getExtensionName.php" />
+        <option value="$PROJECT_DIR$/getUrlExtensionName.php" />
+        <option value="$PROJECT_DIR$/codehero2/kill_redis.php" />
+        <option value="$PROJECT_DIR$/suanfa/str.php" />
+        <option value="$PROJECT_DIR$/Test/index.php" />
+        <option value="$PROJECT_DIR$/Helper/AES.php" />
+        <option value="$PROJECT_DIR$/Helper/CommonHelper.php" />
+        <option value="$PROJECT_DIR$/Test/Email.php" />
+        <option value="$PROJECT_DIR$/Helper/Email.php" />
+        <option value="$PROJECT_DIR$/suanfa/Tool.php" />
+        <option value="$PROJECT_DIR$/Test/EmailTest.php" />
+        <option value="$PROJECT_DIR$/strpad.php" />
+        <option value="$PROJECT_DIR$/Test/suafanTest.php" />
+        <option value="$PROJECT_DIR$/Test/RedisTest.php" />
+        <option value="$PROJECT_DIR$/Array_tools.php" />
+        <option value="$PROJECT_DIR$/cli/testredis.php" />
+        <option value="$PROJECT_DIR$/Helper/CURL.php" />
+        <option value="$PROJECT_DIR$/Helper/Client.php" />
+        <option value="$PROJECT_DIR$/getimg/GetImageClass.php" />
+        <option value="$PROJECT_DIR$/Useredis.php" />
+        <option value="$PROJECT_DIR$/cli/pachong.php" />
+        <option value="$PROJECT_DIR$/phpinfo.php" />
+        <option value="$PROJECT_DIR$/test.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/xss.html" />
+        <option value="$PROJECT_DIR$/codehero3/makeData.php" />
+        <option value="$PROJECT_DIR$/codehero3/kill_redis.php" />
+        <option value="$PROJECT_DIR$/array_foreach.php" />
+        <option value="$PROJECT_DIR$/output.php" />
+        <option value="$PROJECT_DIR$/array_merge_sort.php" />
+        <option value="$PROJECT_DIR$/deep_in_array.php" />
+        <option value="$PROJECT_DIR$/suanfa/shunzi.php" />
+        <option value="$PROJECT_DIR$/suanfa/monkey.php" />
+        <option value="$PROJECT_DIR$/cli/c.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/suanfa/topk.php" />
+        <option value="$PROJECT_DIR$/Loader/Autoload.php" />
+        <option value="$PROJECT_DIR$/Loader/Loader.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/Helper/Tools.php" />
+        <option value="$PROJECT_DIR$/Helper/fordir.php" />
+        <option value="$PROJECT_DIR$/Helper/mkdirs.php" />
+        <option value="$PROJECT_DIR$/test.txt" />
+        <option value="$PROJECT_DIR$/test.php" />
+        <option value="$PROJECT_DIR$/Helper/cuttxt.php" />
+        <option value="$PROJECT_DIR$/Services/services.php" />
+        <option value="$PROJECT_DIR$/Services/client.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/ezyang/htmlpurifier" />
+      <path value="$PROJECT_DIR$/vendor/swoole/ide-helper" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Services" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="background.image.plus" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="idea.background.frame" value="$USER_HOME$/Pictures/手机壁纸/093_026_yyd_5400_8100.jpg,15,scale,center" />
+    <property name="idea.background.editor" value="$USER_HOME$/Pictures/批量下载/20151117120331922.jpg,5,scale,center" />
+    <property name="SearchEverywhereHistoryKey" value="set &#9;ACTION&#9;setBackgroundImage&#10;set&#9;ACTION&#9;setBackgroundImage&#10;set back&#9;ACTION&#9;Images.SetBackgroundImage" />
+    <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Loader" />
+      <recent name="$PROJECT_DIR$/codehero3" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/codehero" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/suanfa" />
+      <recent name="$PROJECT_DIR$/codehero3" />
+      <recent name="$PROJECT_DIR$/codehero2" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Node.js.test.js">
+    <configuration name="test.js" type="NodeJSConfigurationType" factoryName="Node.js" path-to-js-file="test.js" working-dir="$PROJECT_DIR$" />
+    <configuration name="suafanTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="suafanTest" file="$PROJECT_DIR$/Test/suafanTest.php" scope="Class" />
+    </configuration>
+    <configuration name="getVideoTxt.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/getVideoTxt.php" />
+    <configuration name="test.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/test.php" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.test.js" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Script.test.php" />
+      <item index="2" class="java.lang.String" itemvalue="PHPUnit.suafanTest" />
+      <item index="3" class="java.lang.String" itemvalue="PHP Script.getVideoTxt.php" />
+    </list>
+    <recent_temporary>
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="PHP Script.test.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.getVideoTxt.php" />
+        <item index="2" class="java.lang.String" itemvalue="PHPUnit.suafanTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3758b21-9eee-47d2-a8ab-6b0bba3b1e51" name="Default" comment="" />
+      <created>1548506244411</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1548506244411</updated>
+      <workItem from="1548506246938" duration="4344000" />
+      <workItem from="1548651872507" duration="452000" />
+      <workItem from="1548771118203" duration="447000" />
+      <workItem from="1548776538658" duration="14000" />
+      <workItem from="1548776559858" duration="138000" />
+      <workItem from="1548838284485" duration="2341000" />
+      <workItem from="1548916513622" duration="5473000" />
+      <workItem from="1550568839911" duration="515000" />
+      <workItem from="1551949880073" duration="827000" />
+      <workItem from="1551950918819" duration="708000" />
+      <workItem from="1551952644722" duration="149000" />
+      <workItem from="1551953012123" duration="281000" />
+      <workItem from="1551953309971" duration="200000" />
+      <workItem from="1551953543097" duration="327000" />
+      <workItem from="1552011795059" duration="799000" />
+      <workItem from="1552030951736" duration="1087000" />
+      <workItem from="1552458481642" duration="4264000" />
+      <workItem from="1552966844436" duration="394000" />
+      <workItem from="1552979289094" duration="916000" />
+      <workItem from="1553087494240" duration="308000" />
+      <workItem from="1553172947748" duration="1246000" />
+      <workItem from="1553225083874" duration="3838000" />
+      <workItem from="1553585988576" duration="268000" />
+      <workItem from="1553675404418" duration="1685000" />
+      <workItem from="1554778953516" duration="407000" />
+      <workItem from="1554779842127" duration="494000" />
+      <workItem from="1555470188863" duration="923000" />
+      <workItem from="1555983933689" duration="1791000" />
+      <workItem from="1555986313724" duration="1065000" />
+      <workItem from="1571838601946" duration="2692000" />
+      <workItem from="1571879734709" duration="1452000" />
+      <workItem from="1571902938191" duration="2894000" />
+      <workItem from="1572339495949" duration="3830000" />
+      <workItem from="1574501008982" duration="678000" />
+      <workItem from="1574578317305" duration="8799000" />
+      <workItem from="1574938990700" duration="3795000" />
+      <workItem from="1575470658275" duration="1476000" />
+      <workItem from="1575515210893" duration="9709000" />
+      <workItem from="1575615847671" duration="8107000" />
+      <workItem from="1575783510342" duration="5592000" />
+      <workItem from="1576131125476" duration="5898000" />
+      <workItem from="1576223002351" duration="4387000" />
+      <workItem from="1576378866834" duration="754000" />
+      <workItem from="1576381091861" duration="2736000" />
+      <workItem from="1576495333678" duration="135000" />
+      <workItem from="1576513566865" duration="140000" />
+      <workItem from="1576562663933" duration="54000" />
+      <workItem from="1576582956648" duration="670000" />
+      <workItem from="1576658325651" duration="91000" />
+      <workItem from="1577000977784" duration="1835000" />
+      <workItem from="1577025874219" duration="712000" />
+      <workItem from="1577159766797" duration="840000" />
+      <workItem from="1577184817169" duration="622000" />
+      <workItem from="1577190710197" duration="1437000" />
+      <workItem from="1577328738410" duration="400000" />
+      <workItem from="1577427961242" duration="6412000" />
+      <workItem from="1577805829985" duration="26000" />
+      <workItem from="1577978478924" duration="1622000" />
+      <workItem from="1578147721545" duration="4793000" />
+      <workItem from="1578400079192" duration="1269000" />
+      <workItem from="1578402313385" duration="895000" />
+      <workItem from="1578455563481" duration="238000" />
+      <workItem from="1578549592426" duration="88000" />
+      <workItem from="1578653246387" duration="5443000" />
+      <workItem from="1578671238442" duration="476000" />
+      <workItem from="1578756877333" duration="136000" />
+      <workItem from="1578794824618" duration="631000" />
+      <workItem from="1578813066261" duration="743000" />
+      <workItem from="1578815996647" duration="704000" />
+      <workItem from="1579006330366" duration="272000" />
+    </task>
+    <task id="LOCAL-00001" summary="纯真IP转换">
+      <created>1548580343503</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1548580343503</updated>
+    </task>
+    <task id="LOCAL-00002" summary="删除废弃文件">
+      <created>1548581208524</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1548581208524</updated>
+    </task>
+    <task id="LOCAL-00003" summary="redis实现秒杀">
+      <created>1548921916056</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1548921916056</updated>
+    </task>
+    <task id="LOCAL-00004" summary="数字补位">
+      <created>1552460003634</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552460003634</updated>
+    </task>
+    <task id="LOCAL-00005" summary="二分查找，判断数组中是否存在某个值">
+      <created>1552460096725</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1552460096725</updated>
+    </task>
+    <task id="LOCAL-00006" summary="单元测试">
+      <created>1553676727798</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1553676727798</updated>
+    </task>
+    <task id="LOCAL-00007" summary="redis 订阅发布">
+      <created>1555999078610</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555999078610</updated>
+    </task>
+    <task id="LOCAL-00008" summary="更新">
+      <created>1572340585829</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1572340585829</updated>
+    </task>
+    <task id="LOCAL-00009" summary="更新">
+      <created>1575538882425</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1575538882425</updated>
+    </task>
+    <task id="LOCAL-00010" summary="更新">
+      <created>1576168375980</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576168375980</updated>
+    </task>
+    <task id="LOCAL-00011" summary="更新">
+      <created>1576423215056</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576423215056</updated>
+    </task>
+    <task id="LOCAL-00012" summary="更新">
+      <created>1578411030041</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1578411030041</updated>
+    </task>
+    <task id="LOCAL-00013" summary="更新">
+      <created>1578669288909</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1578669288909</updated>
+    </task>
+    <task id="LOCAL-00014" summary="测试cutTxt">
+      <created>1578756942595</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1578756942595</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Swoole实践——完成一个简单的tcp通信">
+      <created>1578819869090</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1578819869090</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="129184000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36337626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297568" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41112456" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3977433" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="纯真IP转换" />
+    <MESSAGE value="删除废弃文件" />
+    <MESSAGE value="redis实现秒杀" />
+    <MESSAGE value="数字补位" />
+    <MESSAGE value="二分查找，判断数组中是否存在某个值" />
+    <MESSAGE value="单元测试" />
+    <MESSAGE value="redis 订阅发布" />
+    <MESSAGE value="更新" />
+    <MESSAGE value="测试cutTxt" />
+    <MESSAGE value="Swoole实践——完成一个简单的tcp通信" />
+    <option name="LAST_COMMIT_MESSAGE" value="Swoole实践——完成一个简单的tcp通信" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/getUrlExtensionName.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suanfa/monkey.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suanfa/topk.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="78" column="41" lean-forward="false" selection-start-line="78" selection-start-column="41" selection-end-line="78" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Framework/Autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="32" lean-forward="false" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php" />
+    <entry file="file://$PROJECT_DIR$/vendor/swoole/ide-helper/bin/generator.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="27">
+          <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/swoole/ide-helper/config/chinese/server/method/send.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/LICENSE">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/installed.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_files.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4200">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Framework/Loader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="27" lean-forward="false" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Helper/Tools.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5190">
+          <caret line="346" column="43" lean-forward="false" selection-start-line="346" selection-start-column="34" selection-end-line="346" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/testredis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/Consumer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="18" column="1" lean-forward="false" selection-start-line="18" selection-start-column="1" selection-end-line="18" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Helper/mkdirs.php" />
+    <entry file="file://$PROJECT_DIR$/Helper/fordir.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/autoload.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/publish.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/Index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/c.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="29" column="34" lean-forward="false" selection-start-line="29" selection-start-column="34" selection-end-line="29" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getimg/gethenha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="2" lean-forward="false" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/import/PdoMysql.php" />
+    <entry file="file://$PROJECT_DIR$/import/QuickSort.php" />
+    <entry file="file://$PROJECT_DIR$/import/import.php" />
+    <entry file="file://$PROJECT_DIR$/import/importcsv.php" />
+    <entry file="file://$PROJECT_DIR$/import/importcsvfood.php" />
+    <entry file="file://$PROJECT_DIR$/import/index.phtml" />
+    <entry file="file://$PROJECT_DIR$/video.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-85468">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ERR_MKDIR" />
+    <entry file="file://$PROJECT_DIR$/tindex.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test2txt" />
+    <entry file="file://$PROJECT_DIR$/test1txt" />
+    <entry file="file://$PROJECT_DIR$/getImage.php" />
+    <entry file="file://$PROJECT_DIR$/getimage/gethenha.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/getimage/GetImageClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codehero/code_hero.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codehero2/kill_redis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="3" lean-forward="false" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codehero3/kill_redis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" lean-forward="false" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding>
+            <marker date="1575632681497" expanded="true" signature="1105:1174" ph="UPDATE `cdkeys`... " />
+            <marker date="1575632681497" expanded="true" signature="1198:1287" ph="INSERT INTO `log`... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codehero2/codehero.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codehero3/codehero.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Helper/cuttxt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="50" column="5" lean-forward="false" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="e#6#83#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/pachong.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/swoole/ide-helper/output/swoole/namespace/Server.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="53" column="20" lean-forward="false" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Services/client.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="27" column="6" lean-forward="false" selection-start-line="27" selection-start-column="6" selection-end-line="27" selection-end-column="6" />
+          <folding>
+            <element signature="e#6#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Services/services.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="24" column="3" lean-forward="true" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

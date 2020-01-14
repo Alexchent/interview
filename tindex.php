@@ -1,0 +1,1 @@
+<?phpdefine('ROOT_DIR', dirname(__DIR__));echo __DIR__.PHP_EOL;echo ROOT_DIR.PHP_EOL;require "Framework/Loader.php";\Framework\Loader::addAutoloadDIR(ROOT_DIR);\Framework\Loader::registerAutoLoad();//\Helper\Tools::getServerIp();
