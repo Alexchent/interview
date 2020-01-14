@@ -13,3 +13,4 @@ This is a PHP test
 
 ## [laboratory 实验室](/laboratory)
 - [测试 array_filter|array_walk|array_map](/laboratory/array_foreach.php)
+- [写一个函数，尽可能高效的，从一个标准 url 里取出文件的扩展名](/laboratory/getUrlExtensionName.php)
