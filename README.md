@@ -14,3 +14,14 @@ This is a PHP test
 ## [laboratory 实验室](/laboratory)
 - [测试 array_filter|array_walk|array_map](/laboratory/array_foreach.php)
 - [写一个函数，尽可能高效的，从一个标准 url 里取出文件的扩展名](/laboratory/getUrlExtensionName.php)
+- [求一个矩阵中最大的二维矩阵（元素和最大) ](/suanfa/max_array.php)
+
+如：
+
+    1 2 0 3 4
+    2 3 4 5 1
+    1 1 5 3 0
+    
+    中最大的是：
+    4 5
+    5 3

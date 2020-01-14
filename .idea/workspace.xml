@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3758b21-9eee-47d2-a8ab-6b0bba3b1e51" name="Default" comment="更新">
-      <change beforePath="" afterPath="$PROJECT_DIR$/laboratory/getUrlExtensionName.php" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/getUrlExtensionName.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/max_array.php" afterPath="$PROJECT_DIR$/suanfa/max_array.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -35,11 +34,21 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="225">
-                <caret line="15" column="72" lean-forward="false" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+              <first_editor relative-caret-position="169">
+                <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
                 <folding />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="max_array.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/suanfa/max_array.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="15" selection-end-column="6" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -208,6 +217,11 @@
               <item name="interview" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="laboratory" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
+              <item name="interview" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="suanfa" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -228,8 +242,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/laboratory" />
       <recent name="$PROJECT_DIR$/suanfa" />
+      <recent name="$PROJECT_DIR$/laboratory" />
       <recent name="$PROJECT_DIR$/codehero3" />
       <recent name="$PROJECT_DIR$/codehero2" />
     </key>
@@ -355,7 +369,7 @@
       <workItem from="1578794824618" duration="631000" />
       <workItem from="1578813066261" duration="743000" />
       <workItem from="1578815996647" duration="704000" />
-      <workItem from="1579006330366" duration="3274000" />
+      <workItem from="1579006330366" duration="3542000" />
     </task>
     <task id="LOCAL-00001" summary="纯真IP转换">
       <created>1548580343503</created>
@@ -466,7 +480,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="132186000" />
+    <option name="totallyTimeSpent" value="132454000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -554,13 +568,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vendor/composer/autoload_files.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/composer/ClassLoader.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-4200">
@@ -850,16 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/suanfa/deep_in_array.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="23" lean-forward="true" selection-start-line="10" selection-start-column="3" selection-end-line="12" selection-end-column="23" />
-          <folding>
-            <element signature="e#6#91#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/find_in_array.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -880,11 +877,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/suanfa/deep_in_array.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <element signature="e#6#91#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/suanfa/max_array.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="15" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="225">
-            <caret line="15" column="72" lean-forward="false" selection-start-line="15" selection-start-column="72" selection-end-line="15" selection-end-column="72" />
+          <first_editor relative-caret-position="169">
+            <caret line="16" column="47" lean-forward="false" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
             <folding />
           </first_editor>
           <second_editor />
