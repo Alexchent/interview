@@ -6,6 +6,9 @@ This is a PHP test
 - [斐波那契数列](/suanfa/fibonacci_sequence.php)
 - [猴群选举](/suanfa/monkey.php)
 - [topK](/suanfa/topk.php)
+- [给定一个二维数组，数组每行从左到右都是递增的；每列也是递增的。
+请完成一个函数，输入如上二维数组和一个整数，函数功能为判断该整数是都存在于数组中。
+时间复杂度尽可能低。（请说明时间复杂度）](/suanfa/deep_in_array.php)
 
 
 ## [laboratory 实验室](/laboratory)

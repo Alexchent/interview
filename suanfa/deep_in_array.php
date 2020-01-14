@@ -19,31 +19,36 @@ $arr = array(
     [4,7,10,13],
     [6,8,11,15]
 );
-$findParam = 7;
-//var_dump( deep_in_array($arr, $findParam) );
-//var_dump( deep_in_array2($arr, $findParam) );
-//var_dump( deep_in_array3($arr, $findParam) );
+$findParam = 6;
 var_dump( find($arr, $findParam) );
 
 /**
- * 冒泡——时间复杂付O(n²)
+ * 顺序查找--时间复杂付O(n²)
  * @param $arr
  * @param $findParam
  * @return bool
  */
 function find($arr, $findParam) {
-    //将数据放在坐标右上角array[0][col]
+    //从右上角array[0][col]开始遍历
     $row = 0; //行
     $col = count($arr[0]) - 1;//列
-        while ($row <= count($arr) - 1 && $col >= 0) {
-            if ($findParam > $arr[$row][$col])
+
+    $count = 0;
+    while ($row <= count($arr) - 1 && $col >= 0) {
+        $count++;
+        if ($findParam > $arr[$row][$col]) {
+
             $row++;//遇到大的下移
-            else if ($findParam < $arr[$row][$col])
+        } else if ($findParam < $arr[$row][$col]) {
+
             $col--;//遇到小的左移
-            else
-                return true;
+        } else {
+            echo $count.PHP_EOL; //遍历次数
+            return true;
         }
-        return false;
+    }
+    echo $count.PHP_EOL; //遍历次数
+    return false;
 }
 
 
