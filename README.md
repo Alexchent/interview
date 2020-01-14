@@ -25,3 +25,5 @@ This is a PHP test
     中最大的是：
     4 5
     5 3
+
+- [php7新特性——标量类型与返回值类型声明、以及静态变量的作用域](laboratory/php7_1.php)

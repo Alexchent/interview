@@ -1,16 +1,16 @@
 <?php
 /**
- * Created by PhpStorm.
- * User: chentao
- * Date: 2019/1/17
- * Time: 5:04 PM
+ * php7新特性——标量类型与返回值类型声明
+ *
+ *
  */
-error_reporting(E_ALL);
-declare(stric_types =0);
+
 static $c=1;
 $d=3;
 
 $res1 = test(1.5,2);
+
+
 echo $res1,"\n";
 $res2 = test(1.5,2);
 echo $res2,"\n";
@@ -32,6 +32,7 @@ function test(int $a, int $b) : int {
     if (isset($c)) {
         $res += $c;
     }
+
     if (isset($d)) {
         $res +=$d;
         $d += 1.5;
