@@ -2,74 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3758b21-9eee-47d2-a8ab-6b0bba3b1e51" name="Default" comment="更新">
-      <change beforePath="$PROJECT_DIR$/.gitignore" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/interview.iml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Framework/Autoload.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Framework/Loader.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Helper/AES.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Helper/Client.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Helper/CommonHelper.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Helper/Email.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Helper/Tools.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Helper/cuttxt.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Helper/fordir.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Memory/IpLocationTool.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Memory/MateDataSource.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Memory/MateTool.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Memory/db/country.xlsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Memory/db/qqwry.dat" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Memory/testIp.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Services/client.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Services/services.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Test/EmailTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Test/suafanTest.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Useredis.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/all_group.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/array_foreach.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/array_merge_sort.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bibao.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cli/c.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cli/pachong.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cli/testredis.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/codehero/code_hero.sql" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/codehero/codehero-3.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/codehero2/codehero-2.html" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/codehero2/codehero.sql" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/codehero2/kill_memcached.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/codehero2/kill_redis.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/codehero3/codehero.sql" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/codehero3/kill_redis.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/codehero3/makeData.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/composer.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/deep_in_array.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/find_in_array.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/getUrlExtensionName.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/getVideoTxt.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/getimage/GetImageClass.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/getimage/gethenha.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/getimg/GetImageClass.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/getimg/gethenha.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/getimg/img/1548079291.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/max_array.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/output.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/php_use.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/static_test.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/strpad.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/suanfa/Tool.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/suanfa/binarySearch.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/suanfa/fibonacci_sequence.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/suanfa/in_array.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/suanfa/monkey.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/suanfa/shunzi.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/suanfa/str.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/suanfa/topk.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/subday.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/test.php" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -127,12 +61,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
               <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="30">
+                <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -182,16 +129,6 @@
         </entry>
       </file>
       <file leaf-file-name="codehero.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/codehero2/codehero.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="codehero.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/codehero3/codehero.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -223,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/buwei.php" />
         <option value="$PROJECT_DIR$/suanfa/in_array.php" />
         <option value="$PROJECT_DIR$/subday.php" />
         <option value="$PROJECT_DIR$/getExtensionName.php" />
@@ -274,6 +210,7 @@
         <option value="$PROJECT_DIR$/Services/services.php" />
         <option value="$PROJECT_DIR$/Services/client.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -487,7 +424,7 @@
       <workItem from="1578794824618" duration="631000" />
       <workItem from="1578813066261" duration="743000" />
       <workItem from="1578815996647" duration="704000" />
-      <workItem from="1579006330366" duration="346000" />
+      <workItem from="1579006330366" duration="511000" />
     </task>
     <task id="LOCAL-00001" summary="纯真IP转换">
       <created>1548580343503</created>
@@ -598,7 +535,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129258000" />
+    <option name="totallyTimeSpent" value="129423000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -611,6 +548,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36337626" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -620,7 +558,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32769045" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2532189" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41112456" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41112456" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3977433" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -685,13 +623,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/getUrlExtensionName.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="43" column="32" lean-forward="false" selection-start-line="43" selection-start-column="23" selection-end-line="43" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/suanfa/monkey.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -987,6 +918,17 @@
         <state relative-caret-position="15">
           <caret line="1" column="7" lean-forward="false" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="7" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="30">
+            <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
