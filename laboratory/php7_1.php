@@ -43,3 +43,20 @@ function test(int $a, int $b) : int {
     }
     return $res;
 }
+
+
+/**
+ * 返回值类型void 表示无返回值，null也不行
+ * @param $left
+ * @param $right
+ */
+function swap(&$left, &$right) : void
+{
+    if ($left === $right) {
+        return;
+    }
+
+    $tmp = $left;
+    $left = $right;
+    $right = $tmp;
+}

@@ -4,7 +4,6 @@
     <list default="true" id="b3758b21-9eee-47d2-a8ab-6b0bba3b1e51" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/laboratory/php7_1.php" afterPath="$PROJECT_DIR$/laboratory/php7_1.php" />
-      <change beforePath="$PROJECT_DIR$/test.txt" afterPath="" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -45,8 +44,8 @@
       <file leaf-file-name="php7_1.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/laboratory/php7_1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+            <state relative-caret-position="275">
+              <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -366,7 +365,7 @@
       <workItem from="1578813066261" duration="743000" />
       <workItem from="1578815996647" duration="704000" />
       <workItem from="1579006330366" duration="8969000" />
-      <workItem from="1579063659651" duration="380000" />
+      <workItem from="1579063659651" duration="571000" />
     </task>
     <task id="LOCAL-00001" summary="纯真IP转换">
       <created>1548580343503</created>
@@ -484,7 +483,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="138261000" />
+    <option name="totallyTimeSpent" value="138452000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -837,8 +836,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/laboratory/php7_1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+        <state relative-caret-position="275">
+          <caret line="48" column="27" lean-forward="false" selection-start-line="48" selection-start-column="27" selection-end-line="48" selection-end-column="27" />
           <folding />
         </state>
       </provider>
