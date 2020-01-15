@@ -5,6 +5,10 @@
  *
  */
 
+//默认严格模式，自动将转换数据类型
+declare(strict_types=0);
+//1 表示强制模式，错误的数据类型直接报fatal error
+
 static $c=1;
 $d=3;
 
