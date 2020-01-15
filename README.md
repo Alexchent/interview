@@ -32,9 +32,34 @@ This is a PHP test
 
 
 
-- [php7新特性——标量类型与返回值类型声明、以及静态变量的作用域](laboratory/php7_1.php)
-
-
+- [php7新特性——标量类型与返回值类型声明](laboratory/php7_1.php)
+- [php7新特性——Null合并运算符](laboratory/php7_2.php)
+- [php7新特性——太空船运算符](laboratory/php7_3.php)
+- [php7新特性——define定于常量数组](laboratory/php7_4.php)
+- [php7新特性——define定于常量数组](laboratory/php7_4.php)
+- [php7新特性——new class创建匿名类](laboratory/php7_5.php)
+- [php7新特性——Closure::call ](laboratory/php7_6.php)
+有着更好的性能，将一个闭包函数动态绑定到一个新的对象实例并调用执行该函数
+- [php7新特性——过滤unserialize](laboratory/php7_7.php)
+- [php7新特性——CSPRNG 生成加密强壮的随机数](laboratory/php7_8_csprng.php)
+- [php7新特性——异常 assert断言](laboratory/php7_9_assert.php)
+- php7新特性——use语句
+批量加载同一个命名空间下的类、函数、常量
+- php7新特性——Session选项
+```php
+//session_start可以接受一个数组参数，覆盖php.ini中的session配置
+//这个特性也引入了一个新的 php.ini 设置（session.lazy_write）, 默认情况下设置为 true，意味着 session 数据只在发生变化时才写入。
+//除了常规的会话配置指示项， 还可以在此数组中包含 read_and_close 选项。如果将此选项的值设置为 TRUE， 那么会话文件会在读取完毕之后马上关闭，
+//因此，可以在会话数据没有变动的时候，避免不必要的文件锁
+session_start([
+    'cache_limiter' => 'private',
+    'read_and_close' => true,
+])
+```
+- [php7新特性——错误处理](laboratory/php7_10_error.php)
+- [php7新特性——运算函数intdiv](laboratory/php7_2.php)
+- [php7新特性——废弃特性](https://www.runoob.com/php/php-deprecated-features.html)
+- [php7新特性——移除扩展](https://www.runoob.com/php/php-removed-extensions.html)
 
 ## [Helper 辅助类小工具](/Helper)
 - [裁剪分割文本文件](/Helper/cuttxt.php)
