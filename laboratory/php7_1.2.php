@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: chentao * Date: 2020/1/15 * Time: 1:01 PM */##### 特殊的类型floatdeclare(strict_types = 1);function test (float $inter) {    return $inter;}echo test(2); // 结果为2function test1(int $inte) : float{    return $inte;}echo test1(1); // 结果为1// 严格模式下， float处理int类型数据，不会报错

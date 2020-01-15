@@ -6,7 +6,7 @@
  */
 
 //默认严格模式，自动将转换数据类型
-declare(strict_types=0);
+//declare(strict_types=0);
 //1 表示强制模式，错误的数据类型直接报fatal error
 
 static $c=1;
@@ -45,6 +45,8 @@ function test(int $a, int $b) : int {
 }
 
 
+##### 特殊的返回值类型 void
+
 /**
  * 返回值类型void 表示无返回值，null也不行
  * @param $left
@@ -60,3 +62,4 @@ function swap(&$left, &$right) : void
     $left = $right;
     $right = $tmp;
 }
+
