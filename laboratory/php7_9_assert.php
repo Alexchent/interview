@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: chentao * Date: 2020/1/15 * Time: 5:13 PM */ini_set('zend.assertions',1);//ini_set('assert.exception', 1);assert(true == false);
