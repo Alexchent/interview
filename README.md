@@ -61,6 +61,13 @@ session_start([
 - [praise_ini_file加载配置文件](/laboratory/test.ini)
 - [测试trait的优先级](/laboratory/testTrait.php)
 
+
+## 魔术方法
+- [__invoke()](/laboratory/magicFunction/__invoke.php)
+
+当对象实例被当做方法调用时触发
+[laravel框架中关于单个行为控制器的实现就是基于————invoke](https://learnku.com/docs/laravel/6.x/controllers/5138)
+
 ## [Helper 辅助类小工具](/Helper)
 - [裁剪分割文本文件](/Helper/cuttxt.php)
 
