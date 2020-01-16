@@ -4,7 +4,6 @@
     <list default="true" id="b3758b21-9eee-47d2-a8ab-6b0bba3b1e51" name="Default" comment="update README">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/laboratory/getUrlExtensionName.php" afterPath="$PROJECT_DIR$/suanfa/getUrlExtensionName.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,8 +43,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="186">
-                <caret line="60" column="46" lean-forward="false" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+              <first_editor relative-caret-position="272">
+                <caret line="61" column="41" lean-forward="false" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -191,11 +190,6 @@
               <item name="interview" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="laboratory" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="suanfa" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -349,7 +343,7 @@
       <workItem from="1579006330366" duration="8969000" />
       <workItem from="1579063659651" duration="9390000" />
       <workItem from="1579165582000" duration="2689000" />
-      <workItem from="1579170453316" duration="343000" />
+      <workItem from="1579170453316" duration="714000" />
     </task>
     <task id="LOCAL-00001" summary="纯真IP转换">
       <created>1548580343503</created>
@@ -467,7 +461,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="150446000" />
+    <option name="totallyTimeSpent" value="150817000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -846,8 +840,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="186">
-            <caret line="60" column="46" lean-forward="false" selection-start-line="60" selection-start-column="46" selection-end-line="60" selection-end-column="46" />
+          <first_editor relative-caret-position="272">
+            <caret line="61" column="41" lean-forward="false" selection-start-line="61" selection-start-column="41" selection-end-line="61" selection-end-column="41" />
             <folding />
           </first_editor>
           <second_editor />

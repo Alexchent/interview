@@ -59,7 +59,7 @@ session_start([
 - [php7新特性——废弃特性](https://www.runoob.com/php/php-deprecated-features.html)
 - [php7新特性——移除扩展](https://www.runoob.com/php/php-removed-extensions.html)
 - [praise_ini_file加载配置文件](/laboratory/test.ini)
-
+- [测试trait的优先级](/laboratory/testTrait.php)
 
 ## [Helper 辅助类小工具](/Helper)
 - [裁剪分割文本文件](/Helper/cuttxt.php)
