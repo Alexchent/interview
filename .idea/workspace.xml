@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b3758b21-9eee-47d2-a8ab-6b0bba3b1e51" name="Default" comment="update README">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Framework/Autoload.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Framework/Loader.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/Helper/Client.php" afterPath="$PROJECT_DIR$/Helper/Client.php" />
-      <change beforePath="$PROJECT_DIR$/Helper/CommonHelper.php" afterPath="$PROJECT_DIR$/Helper/CommonHelper.php" />
-      <change beforePath="$PROJECT_DIR$/Helper/Email.php" afterPath="$PROJECT_DIR$/Helper/Email.php" />
-      <change beforePath="$PROJECT_DIR$/Helper/Tools.php" afterPath="$PROJECT_DIR$/Helper/Tools.php" />
-      <change beforePath="$PROJECT_DIR$/Helper/fordir.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change beforePath="$PROJECT_DIR$/cli/Consumer.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cli/Index.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cli/c.php" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/cli/publish.php" afterPath="$PROJECT_DIR$/cli/publish.php" />
-      <change beforePath="$PROJECT_DIR$/cli/testredis.php" afterPath="$PROJECT_DIR$/cli/redis_subscrible.php" />
-    </list>
+    <list default="true" id="b3758b21-9eee-47d2-a8ab-6b0bba3b1e51" name="Default" comment="update README" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -282,11 +267,6 @@
               <item name="interview" type="b2602c69:ProjectViewProjectNode" />
               <item name="interview" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
-            <path>
-              <item name="interview" type="b2602c69:ProjectViewProjectNode" />
-              <item name="interview" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="cli" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -438,7 +418,7 @@
       <workItem from="1578815996647" duration="704000" />
       <workItem from="1579006330366" duration="8969000" />
       <workItem from="1579063659651" duration="9390000" />
-      <workItem from="1579165582000" duration="2385000" />
+      <workItem from="1579165582000" duration="2427000" />
     </task>
     <task id="LOCAL-00001" summary="纯真IP转换">
       <created>1548580343503</created>
@@ -556,7 +536,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="149799000" />
+    <option name="totallyTimeSpent" value="149841000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -569,9 +549,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37339056" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37339056" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32863188" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41112456" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
