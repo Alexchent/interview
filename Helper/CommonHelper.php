@@ -102,53 +102,6 @@ class CommonHelper
         return array_slice($data, ($page - 1) * $num, $num, true);
     }
 
-    /**
-     * 营业时间整理
-     * @param $openTime  //shop端营业时间
-     * @return array
-     * @author xiao
-     */
-    public static function getOpenTime($openTime)
-    {
-        $data = array(
-            'openTime' => 0,
-            'closeTime' => 1440,
-        );
-
-        if ($openTime) {
-            $tmp = explode(',', $openTime);
-            if (count($tmp) == 2) {
-                $data['openTime'] = intval($tmp[0]);
-                $data['closeTime'] = intval($tmp[1]);
-            }
-        }
-
-        return $data;
-    }
-
-    /**
-     * 二维数组比较差集
-     * @param $array1
-     * @param $array2
-     * @return array
-     */
-    public function arrayDiffAssocDeep($array1, $array2)
-    {
-        $ret = array();
-        foreach ($array1 as $k => $v) {
-            if (!isset($array2[$k])) {
-                $ret[$k] = $v;
-            }else if (is_array($v) && is_array($array2[$k])) {
-                $ret[$k] = $this->arrayDiffAssocDeep($v, $array2[$k]);
-            }else if ($v !=$array2[$k]) {
-                $ret[$k] = $v;
-            }else {
-                unset($array1[$k]);
-            }
-
-        }
-        return $ret;
-    }
 
     /**
      * 通过年龄获取日期
@@ -165,25 +118,6 @@ class CommonHelper
 
         return $ageData;
     }
-
-    /**
-     * 检查数字中存在某数字吗 存在返回true 不存在返回false
-     * @param $number       //数字
-     * @param $checkNumber  //要检查的数字
-     * @return bool
-     */
-    public static function checkNumberExist($number, $checkNumber)
-    {
-        $res = strpos($number . '', $checkNumber . '');
-        if ($res === false) {
-            return false;
-        } else {
-            return true;
-        }
-
-    }
-
-
 
     /**
      * 文件上传
@@ -231,85 +165,6 @@ class CommonHelper
 
         return $fileName;
     }
-
-    /**
-     * 导出数据到Excel
-     * @param string $exportData 例:  姓名,年龄,成绩\n李白,18,99
-     * @param null $fileName 导出文件名 默认 Ymd
-     * @throws
-     */
-    public static function export($exportData, $fileName = null)
-    {
-        if (!$fileName) {
-            $fileName = date('Ymd');
-        }
-
-        Common::loadVendor('PHPExcel'); //加载PHPExcel
-        $objPHPExcel = new \PHPExcel();
-
-        //文件信息
-        $objPHPExcel->getProperties()
-            ->setCreator("ShanDian")
-            ->setLastModifiedBy("ShanDian")
-            ->setTitle("ShanDian Data Export To EXCEL")
-            ->setSubject("ShanDian Data Export To EXCEL")
-            ->setDescription("Data")
-            ->setKeywords("excel")
-            ->setCategory("Card Information ");
-        $objPHPExcel->setActiveSheetIndex(0);//设置当前的表格
-
-        // 设置表格第一行字段内容
-        $colHeader = "A,B,C,D,E,F,G,H,I,J,K,L,M,N,O,P,Q,R,S,T,U,V,W,X,Y,Z,AA,AB,AC,AD,AE,AF,AG,AH,AI,AJ,AK,AL,AM,AN,AO,AP,AQ,AR,AS,AT,AU,AV,AW,AX,AY,AZ";
-        $coordinates = explode(',', $colHeader);
-        $exportArr = explode(PHP_EOL, $exportData);
-        //整理数据格式
-        $key = 1;
-        foreach ($exportArr as $v) {
-            if (empty($v)) {
-                continue;
-            }
-            $v = explode(',', $v);
-            foreach ($v as $index => $item) { //匹配key value
-                $objPHPExcel->getActiveSheet()->setCellValue($coordinates[$index] . $key, $item);
-            }
-
-            $key ++;
-        }
-
-        $objPHPExcel->setActiveSheetIndex(0);
-
-        ob_end_clean();  //清除缓冲区,避免乱码
-        header('Content-Type: application/vnd.ms-excel'); //文件类型
-        header('Content-Disposition: attachment;filename="' . $fileName . '.xls"'); //文件名
-        header('Cache-Control: max-age=0');
-        header('Content-Type: text/xls; charset=utf-8'); //编码
-        $objWriter = PHPExcel_IOFactory::createWriter($objPHPExcel, 'Excel5');  //excel 2003
-        $objWriter->save('php://output');
-
-        exit;
-    }
-    
-    /**
-     * http Get 请求
-     * @param $url
-     * @return mixed
-     */
-    public static function httpGet($url)
-    {
-        if (empty($url)) {
-            return false;
-        }
-        $ch = curl_init();
-        $timeout = 1;
-        curl_setopt ($ch, CURLOPT_URL, $url);
-        curl_setopt ($ch, CURLOPT_RETURNTRANSFER, 1);
-        curl_setopt ($ch, CURLOPT_CONNECTTIMEOUT, $timeout);
-        $result = curl_exec($ch);
-        curl_close($ch);
-        return $result;
-    }
-    
-
 
     /**
      * 计算两点地理坐标之间的距离
@@ -436,39 +291,6 @@ class CommonHelper
         }
     }
 
-    /**
-     * 高德地图api 计算两点之间的步行距离|骑行距离
-     * @param array $origin [经度 ， 纬度]
-     * @param array $destination [经度 ， 纬度]
-     * @param int $unit
-     * @param int $decimal
-     * @return bool|float|int
-     */
-    public static function distanceByAmap($origin , $destination , $unit = 2, $decimal = 2)
-    {
-        $key = Common::getConfigFile('WeixinConfig' , 'amapkey');
-        $params = [
-            'origin' => implode(',' ,$origin),
-            'destination' => implode(',' ,$destination),
-            'key' => $key,
-        ];
-        $base_amap_url = 'https://restapi.amap.com';
-        $urls = ['/v3/direction/walking?','/v4/direction/bicycling?'];
-        $distance = false;
-        foreach ($urls as $url){
-            $data = self::http_get($base_amap_url . $url . http_build_query($params));
-            $data = json_decode($data , true);
-            if (!empty($data) && !empty($data['data']['paths'])){
-                $distance = $data['data']['paths'][0]['distance'];  //返回第一条路线的距离 单位米
-                if($unit == 2){ // 1米  2公里
-                    $distance = $distance / 1000;
-                }
-                $distance = round($distance, $decimal);  //保留几位小数
-                break;
-            }
-        }
-        return $distance;
-    }
 
     /**
      * GET 请求
@@ -519,78 +341,6 @@ class CommonHelper
     public static function getReductionOid($payOid)
     {
         return intval(substr($payOid, 22, 10));
-    }
-    
-    /**
-     * 返回当前的毫秒时间戳
-     * @return float
-     */
-    public static function getMicroTime()
-    {
-        list($msec, $sec) = explode(' ', microtime());
-        return (float)sprintf('%.0f', (floatval($msec) + floatval($sec)) * 1000);
-    }
-    
-    /**
-     * 时间戳转日期格式:精确到毫秒，x代表毫秒
-     *
-     * @param int $time
-     * @param int $style
-     * @return mixed
-     */
-    public static function getMicroTimeFormat($time = 0, $style = 0)
-    {
-        $time = $time == 0 ? self::getMicroTime() * 0.001 : $time;
-        if (strstr($time, '.')) {
-            sprintf("%01.3f", $time); //小数点。不足三位补0
-            list($dateTime, $ms) = explode(".", $time);
-            $ms = str_pad($ms, 3, "0", STR_PAD_RIGHT); //不足3位。右边补0
-        } else {
-            $dateTime = $time;
-            $ms = "000";
-        }
-        switch ($style) {
-            case 1:
-                $date = date("Y-m-d H:i:s.x", $dateTime);
-                break;
-            case 2:
-                $date = date("Y/m/d H:i:s.x", $dateTime);
-                break;
-            default:
-                $date = date("YmdHisx", $dateTime);
-        }
-        return str_replace('x', $ms, $date);
-    }
-
-    /**
-     * 二维数组排序
-     * @param array $arrays
-     * @param string $sortKey // 排序的键
-     * @param int $sortOrder
-     *  SORT_ASC - 默认，按升序排列。(A-Z)
-     *  SORT_DESC - 按降序排列。(Z-A)
-     * @param int $sortType
-     *  SORT_REGULAR - 默认。将每一项按常规顺序排列。
-     *  SORT_NUMERIC - 将每一项按数字顺序排列。
-     *  SORT_STRING - 将每一项按字母顺序排列
-     *
-     * @return array|bool
-     */
-    public static function arrayMultiSort($arrays, $sortKey, $sortOrder = SORT_ASC, $sortType = SORT_NUMERIC )
-    {
-        if(is_array($arrays)){
-            foreach ($arrays as $array){
-                if(is_array($array)){
-                    $keys[] = $array[$sortKey];
-                }else{
-                    return false;
-                }
-            }
-        }else{
-            return false;
-        }
-        array_multisort($keys, $sortOrder, $sortType, $arrays);
-        return $arrays;
     }
 
     /**

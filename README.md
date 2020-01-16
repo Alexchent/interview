@@ -73,3 +73,9 @@ session_start([
 ## [Helper 帮助](/Helper)
 - [手机号查询](/Helper/QueryPhone.php)
 - [file_get_content发送http请求](/Helper/HttpRequest.php)
+
+
+
+## cli
+- [爬虫获取某视频网站的资源](/cli/pachong.php)
+- [redis 发布订阅模式测试](/cli/redis_subscrible.php)

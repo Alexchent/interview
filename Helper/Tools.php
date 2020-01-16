@@ -343,4 +343,28 @@ class Tools
         return $path;
     }
 
+    /**
+     * 遍历指定目录下的所有目录和文件
+     *
+     * Date: 2019/12/22
+     * Time: 3:50 PM
+     */
+    public static function get_dir_info($path) {
+        $handle = opendir($path);//打开目录返回句柄
+        while(($content = readdir($handle))!== false){
+
+            $new_dir = $path . '/' . $content;
+            if($content == '..' || $content == '.'){
+                continue;
+            }
+
+            if(is_dir($new_dir)){
+                echo "目录：".$new_dir . "\n";
+                self::get_dir_info($new_dir);
+            }else{
+                echo "文件：".$path.'/'.$content ."\n";
+            }
+        }
+    }
+
 }

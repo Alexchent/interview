@@ -1,1 +1,0 @@
-<?phpnamespace interview\Loader;class Autoload{    static public function autoload($class){        spl_autoload_register();    }}
