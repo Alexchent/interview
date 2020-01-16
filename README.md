@@ -63,3 +63,13 @@ session_start([
 
 ## [Helper 辅助类小工具](/Helper)
 - [裁剪分割文本文件](/Helper/cuttxt.php)
+
+
+## [下载图片](/getimg)
+1. [基类](/getimg/GetImageClass.php)
+2. [测试](/getimg/gethenha.php)
+
+
+## [Helper 帮助](/Helper)
+- [手机号查询](/Helper/QueryPhone.php)
+- [file_get_content发送http请求](/Helper/HttpRequest.php)

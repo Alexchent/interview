@@ -1,24 +1,26 @@
 ﻿<?php
 
-define("DIR_IMG","/Users/chentao/Documents/work/interview/getimg/img/");
-define("ERR_LOG","./img/log.txt");
-define("ERR_MKDIR","./img/mkdir.log");
+define("DIR_IMG", "/Users/chentao/Documents/work/interview/getimg/img/");
+define("ERR_LOG", "./img/log.txt");
+define("ERR_MKDIR", "./img/mkdir.log");
+
 class GetImageClass{
-	/**创建多级目录
+
+    /**
+     * 创建多级目录
 	 *
-	 * @param $path 目录路径
-	 * @return mixed
+	 * @param string $path 目录路径
 	 */
-	public function makedir($path){
+	public function make_dir($path) :void {
 		//header("Content-type:text/html;charset=utf-8");
 		//判断目录存在否，存在给出提示，不存在则创建目录
 		if (is_dir($path)){
-			return $path;
+			return ;
 		}else{
 			//第三个参数是“true”表示能创建多级目录，iconv防止中文目录乱码
 			$res=mkdir(iconv("UTF-8", "GBK", $path),0777,true);
 			if ($res){
-				return $path;
+				return ;
 			}else{
 				file_put_contents(ERR_MKDIR, $path, FILE_APPEND | LOCK_EX);
 			}
@@ -26,14 +28,15 @@ class GetImageClass{
 	}
 
 
-	/**保存图片
+	/**
+     * 保存图片
 	 *
-	 * @param string $url					图片地址
-	 * @param sttring $dir					用于创建保存图片的文件夹名
+	 * @param string $url			图片地址
+	 * @param string $dir			用于创建保存图片的文件夹名
 	 * @param string $filename		图片名
 	 * @return bool
 	 */
-	public function grabImage_base($url, $dir, $filename='') {
+	public function grabImage_base($url, $dir=DIR_IMG, $filename='') {
 
 		if($url == '') {
 			return false; //如果 $url 为空则返回 false;
@@ -47,10 +50,9 @@ class GetImageClass{
 				return false; //格式不在允许的范围
 			}
 
-			$this->makedir($dir);//创建保存图片的文件夹
+			$this->make_dir($dir);//创建保存图片的文件夹
 			if($filename == '') $filename = $dir.time().$ext_name; //以时间戳另起名
 
-            //echo $filename,"\n";die;
 			//开始捕获
 			ob_start();
 			readfile($url);
