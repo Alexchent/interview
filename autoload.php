@@ -1,0 +1,1 @@
+<?php/**自动加载外部类 * * Created by PhpStorm. * User: SD * Date: 2016/7/7 * Time: 14:15 */class autoload{    public static function load($className){        $filePath = sprintf("%s.php",str_replace('\\','/',$className));//格式化字符串        if(is_file($filePath)) require_once $filePath;    }}spl_autoload_register("autoload::load");

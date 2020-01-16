@@ -223,6 +223,36 @@ class Tools
     }
 
     /**
+     * 生成简码
+     *
+     * @param string $name 名称，由数字英文字母或汉字组成
+     *
+     * @return string
+     * @author tao.chen
+     */
+    public static function createBC($name)
+    {
+        $bc = '';
+        $len = mb_strlen($name, "UTF8");
+        for ($i = 0; $i < $len; $i++) {
+            $charter = mb_substr($name, $i, 1, "UTF8");
+            if (preg_match("/[a-zA-Z0-9]/", $charter)) {
+                //匹配到是英文字母或数字，直接输入
+                $firstCharter = strval(strtoupper($charter));
+            } else {
+                //只接受汉字，其他返回null
+                $firstCharter = self::getFirstCharter($charter);
+            }
+            $bc .= $firstCharter;
+        }
+        if (empty($bc)) {
+            $bc = '*';
+        }
+        $bc = substr($bc, 0, 10);
+        return $bc;
+    }
+
+    /**
      * 选定数组的某个值做key重组数组
      * 适用于二维数组
      * @param $arr
@@ -265,35 +295,7 @@ class Tools
 
 
 
-    /**
-     * 生成简码
-     *
-     * @param string $name 名称，由数字英文字母或汉字组成
-     *
-     * @return string
-     * @author tao.chen
-     */
-    public static function createBC($name)
-    {
-        $bc = '';
-        $len = mb_strlen($name, "UTF8");
-        for ($i = 0; $i < $len; $i++) {
-            $charter = mb_substr($name, $i, 1, "UTF8");
-            if (preg_match("/[a-zA-Z0-9]/", $charter)) {
-                //匹配到是英文字母或数字，直接输入
-                $firstCharter = strval(strtoupper($charter));
-            } else {
-                //只接受汉字，其他返回null
-                $firstCharter = self::getFirstCharter($charter);
-            }
-            $bc .= $firstCharter;
-        }
-        if (empty($bc)) {
-            $bc = '*';
-        }
-        $bc = substr($bc, 0, 10);
-        return $bc;
-    }
+
 
     public static function isNotJson($str)
     {
@@ -328,11 +330,10 @@ class Tools
         $path = '';
         $arr = explode('/', $a);
         $brr = explode('/', $b);
-//        var_dump($brr);
+
         $same = array_intersect_assoc($arr, $brr);//获取两个数组相同的部分
-//var_dump($same);
         $dir = array_diff_assoc($brr, $same);
-//        var_dump($dir);die;
+
         for($i = 1; $i <= count($dir)-1; $i++) {
             $path .='../';
         }
@@ -341,15 +342,5 @@ class Tools
 
         return $path;
     }
-
-
-    public static function getmicrotime(){
-        list($u,$s) = explode('', microtime());
-        $num = (float)$u + (float)$s;
-        return sprintf("%.4f", $num);
-
-    }
-
-
 
 }
