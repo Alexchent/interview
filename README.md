@@ -23,15 +23,13 @@ This is a PHP test
     4 5
     5 3
 
+- [写一个函数，从一个标准url 里取出文件的扩展名](/suanfa/getUrlExtensionName.php)
+
 
 
 
 ## [laboratory 实验室](/laboratory)
 - [测试 array_filter|array_walk|array_map](/laboratory/array_foreach.php)
-- [写一个函数，尽可能高效的，从一个标准 url 里取出文件的扩展名](/laboratory/getUrlExtensionName.php)
-
-
-
 - [php7新特性——标量类型与返回值类型声明](laboratory/php7_1.php)
 - [php7新特性——Null合并运算符](laboratory/php7_2.php)
 - [php7新特性——太空船运算符](laboratory/php7_3.php)
@@ -60,6 +58,8 @@ session_start([
 - [php7新特性——运算函数intdiv](laboratory/php7_2.php)
 - [php7新特性——废弃特性](https://www.runoob.com/php/php-deprecated-features.html)
 - [php7新特性——移除扩展](https://www.runoob.com/php/php-removed-extensions.html)
+- [praise_ini_file加载配置文件](/laboratory/test.ini)
+
 
 ## [Helper 辅助类小工具](/Helper)
 - [裁剪分割文本文件](/Helper/cuttxt.php)
