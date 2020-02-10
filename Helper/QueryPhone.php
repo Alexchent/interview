@@ -1,12 +1,12 @@
 <?php
-namespace app;
+namespace Helper;
 /**
  * Created by PhpStorm.
  * User: SD
  * Date: 2016/7/6
  * Time: 15:37
  */
-use libs\HttpRequest;
+use HttpRequest;
 
 class QueryPhone
 {

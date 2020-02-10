@@ -1,5 +1,5 @@
 <?php
-namespace libs;
+namespace Helper;
 /**http请求模块
  * Created by PhpStorm.
  * User: SD
