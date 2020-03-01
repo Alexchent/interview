@@ -34,14 +34,15 @@ This is a PHP test
 - [php7新特性——Null合并运算符](laboratory/php7_2.php)
 - [php7新特性——太空船运算符](laboratory/php7_3.php)
 - [php7新特性——define定于常量数组](laboratory/php7_4.php)
-- [php7新特性——define定于常量数组](laboratory/php7_4.php)
 - [php7新特性——new class创建匿名类](laboratory/php7_5.php)
 - [php7新特性——Closure::call ](laboratory/php7_6.php)
+
 有着更好的性能，将一个闭包函数动态绑定到一个新的对象实例并调用执行该函数
 - [php7新特性——过滤unserialize](laboratory/php7_7.php)
 - [php7新特性——CSPRNG 生成加密强壮的随机数](laboratory/php7_8_csprng.php)
 - [php7新特性——异常 assert断言](laboratory/php7_9_assert.php)
 - php7新特性——use语句
+
 批量加载同一个命名空间下的类、函数、常量
 - php7新特性——Session选项
 ```php
@@ -86,3 +87,10 @@ session_start([
 ## cli
 - [爬虫获取某视频网站的资源](/cli/pachong.php)
 - [redis 发布订阅模式测试](/cli/redis_subscrible.php)
+
+
+
+## python test
+
+- 序列
+  - [列表](/python/my_first_py)
