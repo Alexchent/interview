@@ -5,4 +5,8 @@
 
 echo "hello php cli";
 
+
+
+echo 1;
+
 ?>
