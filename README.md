@@ -74,6 +74,9 @@
 
 - 行为模式11种
     1. [责任链模式](DesignPatterns/ChainOfResponsibility/ChainOfResponsibility.md)
+    2. 命令模式
+    3. 解释器模式    基本用不到
+    4. 中介者模式
 
 ## [Swoole客户端&服务端](/Swoole)
 1. 启动服务端 
