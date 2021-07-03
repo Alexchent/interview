@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: chentao * Date: 2021/7/2 * Time: 10:20 PM */class TehuiTaoCanFactory{    public function create()    {        $apple = new Apple();        $pork = new Pork();        return new TehuiTaocan($apple, $pork);    }}

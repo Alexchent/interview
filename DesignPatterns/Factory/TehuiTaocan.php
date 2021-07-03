@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: chentao * Date: 2021/7/2 * Time: 10:22 PM */class TehuiTaocan{    protected $apple;    protected $pork;//猪肉    public function __construct(Apple $apple, Pork $pork)    {        $this->apple = $apple;        $this->pork = $pork;        echo "这是一份特价套餐","包含：".$this->apple->name.'和'.$this->pork->name;    }}

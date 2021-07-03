@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: chentao * Date: 2021/7/2 * Time: 10:21 PM */class Apple{    public $name = "苹果";}
