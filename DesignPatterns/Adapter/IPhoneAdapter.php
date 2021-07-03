@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: chentao * Date: 2021/7/3 * Time: 11:05 AM */class IPhoneAdapter implements PowerAdapter{    //将家庭电压转换为5v    public function convert(HomeBattery $homeVolt)    {        if ($homeVolt instanceof ChineseHomeBattery) return $homeVolt->supply() - 215;        return 5;    }}

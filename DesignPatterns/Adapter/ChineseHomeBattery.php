@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: chentao * Date: 2021/7/3 * Time: 10:40 AM */class ChineseHomeBattery implements HomeBattery{    public function supply()    {        return 220;    }}

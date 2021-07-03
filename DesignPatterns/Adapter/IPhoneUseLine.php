@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: chentao * Date: 2021/7/3 * Time: 10:43 AM */class IPhoneUseLine implements UseLine{    public function charge(int $volt)    {        if ($volt != 5) throw new \Exception("只能接受5v", 1000);        echo "正常充电".PHP_EOL;    }}

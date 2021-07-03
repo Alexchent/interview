@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: chentao * Date: 2021/7/3 * Time: 10:42 AM */interface UseLine{    public function charge(int $volt);}
