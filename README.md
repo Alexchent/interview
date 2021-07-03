@@ -67,6 +67,7 @@
     1. [适配器模式](DesignPatterns/Adapter/test.php)
     2. 桥接模式
     3. 组合模式
+    4. 装饰器模式
 
 - 行为模式11种
 
