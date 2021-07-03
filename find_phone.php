@@ -23,7 +23,8 @@ $response = QueryPhone::query($tel);
 	 $response['msg'] = "手机号码错误";
  }
 
-echo json_encode($response);
+ var_dump($response);
+//echo json_encode($response);
 
 
 

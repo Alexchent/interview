@@ -6,7 +6,7 @@ namespace Helper;
  * Date: 2016/7/6
  * Time: 15:37
  */
-use HttpRequest;
+//use HttpRequest;
 
 class QueryPhone
 {
@@ -35,7 +35,7 @@ class QueryPhone
 
 	public static function verifyPhone($phone)
 	{
-		if (preg_match("/^1[34578]{1}\d{9}/", $phone)) {
+		if (preg_match("/^1[34578]\d{9}/", $phone)) {
 			return true;
 		} else {
 			return false;
