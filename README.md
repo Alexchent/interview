@@ -63,15 +63,17 @@
     4. [建造者模式](DesignPatterns/Builder/Builder.md)
     5. 原型模式|克隆模式 
     
-- 结构模式7种
+- 结构模式型7种
     1. [适配器模式](DesignPatterns/Adapter/test.php)
     2. 桥接模式
     3. 组合模式
     4. [装饰器模式](DesignPatterns/Decorator/test.php)
     5. [外观模式](DesignPatterns/Facade/facade.php)
-    6. [享元模式]()
+    6. [享元模式](DesignPatterns/Flyweight.md)
+    7. [代理模式]()
 
 - 行为模式11种
+    1. [责任链模式](DesignPatterns/ChainOfResponsibility/ChainOfResponsibility.md)
 
 ## [Swoole客户端&服务端](/Swoole)
 1. 启动服务端 
