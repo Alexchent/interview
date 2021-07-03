@@ -1,0 +1,1 @@
+# 建造者模式 属于构建型模式定义：将一个复杂的构建与其表示分离，是的同样的构建过程中可以创建不同的表示目的：用于创建过程稳定，但是配置多变的对象。典型例子：框架构建SQL语句的方式，链式调用laravel ```markdown//都是生成一条sql并执行，构建过程一样，传入的参数不一样，获得的对象也不一样DB::table('class')->select(['class_name','class_id'])->where('is_disabled', true)->get();DB::table('class')->select(['class_name','is_disabled'])->where('class_id', 1)->get();```

@@ -60,7 +60,7 @@
     1. 单例模式
     2. [工厂模式](DesignPatterns/Factory)
     3. 抽象工厂模式
-    4. 建造者模式
+    4. [建造者模式](DesignPatterns/Builder/Builder.md)
     5. 原型模式|克隆模式 
     
 - 结构模式7种
