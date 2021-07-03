@@ -1,6 +1,6 @@
 <?php
 /**
- * 优先级 子类 > trait > 父类
+ * 先给结论，优先级： 子类 > trait > 父类
  * Created by PhpStorm.
  * User: 10000865
  * Date: 2019/8/5
@@ -30,7 +30,7 @@ trait T
     public function sayHello(){
         echo "T".PHP_EOL;
         echo parent::sayHello().PHP_EOL;
-        echo "子类 》 trait > 父类".PHP_EOL;
+        echo "子类 > trait > 父类".PHP_EOL;
     }
 }
 
