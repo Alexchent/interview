@@ -68,7 +68,8 @@
     2. 桥接模式
     3. 组合模式
     4. [装饰器模式](DesignPatterns/Decorator/test.php)
-    5. 外观模式
+    5. [外观模式](DesignPatterns/Facade/facade.php)
+    6. [享元模式]()
 
 - 行为模式11种
 
