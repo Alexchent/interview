@@ -25,6 +25,7 @@ function kill($userId, $eventId)
     $redis = new Redis();
     $redis->connect('127.0.0.1', 6379);
     if (!$redis->setnx($userLock, 1) && $redis->expire($userLock, 20)) {
+        //todo set key value NX EX 20
         return "您已经参与过了！";
     }
 
