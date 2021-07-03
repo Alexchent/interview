@@ -45,13 +45,27 @@
 
 [laravel框架中关于单个行为控制器的实现就是基于————invoke](https://learnku.com/docs/laravel/6.x/controllers/5138)
 
-## [面向对象编程的6大基本原则](https://blog.csdn.net/qq_16399457/article/details/118421251)
+---
+
+## [面向对象编程的5大基本原则](https://blog.csdn.net/qq_16399457/article/details/118421251)
 1. 单一职责原则
 2. 开放封闭原则
 3. 里氏替换原则
 4. 接口隔离原则
 5. 依赖倒置原则
-6. [迪米特原则|最少知道原则](https://www.cnblogs.com/xiaoqingtian/p/13701114.html)
+6. *[迪米特原则|最少知道原则](https://www.cnblogs.com/xiaoqingtian/p/13701114.html)
+
+## 23种设计模式
+- 构建型模式
+    1. 单例模式
+    2. [工厂模式](DesignPatterns/Factory)
+    3. 抽象工厂模式
+    4. 建造者模式
+    5. 原型模式|克隆模式 
+    
+- 结构模式7种
+
+- 行为模式11种
 
 ## [Swoole客户端&服务端](/Swoole)
 1. 启动服务端 
