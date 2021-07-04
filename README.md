@@ -4,11 +4,11 @@
 ### 基本功
 - 快速排序
 - 冒泡排序
-- [斐波那契数列](/suanfa/fibonacci_sequence.php)
+- [斐波那契数列](/suanfa/Base/fibonacci_sequence.php)
 - [topK 最大顶堆](/suanfa/topk.php)
 
 ### 算法练习题
-- [二分查找](/suanfa/binarySearch.php)
+- [二分查找](/suanfa/Base/binarySearch.php)
 - [猴群选举](/suanfa/monkey.php)
 - [给定一个二维数组，数组每行从左到右都是递增的；每列也是递增的。
 请完成一个函数，输入如上二维数组和一个整数，函数功能为判断该整数是都存在于数组中。

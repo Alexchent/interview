@@ -17,6 +17,7 @@ function fib($n, $a, $b) {
     return $arr[$n];
 };
 
+//时间复杂度 O(n)
 function fib2($n, $a, $b) {
 
     if ($n == 1) return $a;
@@ -30,4 +31,14 @@ function fib2($n, $a, $b) {
     return $c;
 }
 
-var_dump(fib2(6,1,2));
+//递归实现 求数列的第n个数 时间复杂度O(2^n) 优点是算法简单
+function fib3($n)
+{
+    if ($n < 2) return $n;
+    return fib3($n-2) + fib3($n-1);
+}
+
+//var_dump(fib2(6,1,2));
+
+
+var_dump(fib3(4));
