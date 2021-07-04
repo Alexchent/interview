@@ -1,1 +1,0 @@
-<?php/** * AMQP 测试 */$config = array("host" => "127.0.0.1", "port" => "5672", "login" => "admin", "password" => "admin");$connect = new AMQPConnection($config);$connect->connect();
