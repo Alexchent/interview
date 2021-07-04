@@ -1,0 +1,1 @@
+<?php/** * Created by PhpStorm. * User: chentao * Date: 2021/7/4 * Time: 9:18 PM */$str = 'src="http:www.youzu.com/1.png" width="100" width="100"';//echo preg_match("/src=*(.*)*/", $str);
