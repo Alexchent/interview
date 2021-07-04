@@ -77,6 +77,7 @@
     2. 命令模式
     3. 解释器模式    基本用不到
     4. 中介者模式
+    5. 观察者模式！！    
 
 ## [Swoole客户端&服务端](/Swoole)
 1. 启动服务端 
@@ -103,3 +104,6 @@ php Swoole/services.php
 
 ## Redis
 - [redis 发布订阅模式测试](/cli/redis_subscrible.php)
+
+
+## [linux](/Linux)
