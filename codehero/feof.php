@@ -1,0 +1,1 @@
+<?php/** * 256m内存的，统计10G大小文件中关键字hello出现的次数 */$handle = fopen('log.txt', "r") or die('读不到文件');$count=0;if ($handle){    while(!feof($handle)) {        $buffer = fgets($handle, 4096);        $count += substr_count($buffer,'hello');    }    fclose($handle);}var_dump($count);
