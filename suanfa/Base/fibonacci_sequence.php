@@ -13,6 +13,7 @@ function fib($n, $a, $b) {
     if ($n <3) return $arr[$n];
     for ($i = 3; $i <= $n; $i++) {
         $arr[$i] = $arr[$i-1] + $arr[$i -2];
+        echo $i ." : ".$arr[$i].PHP_EOL;
     }
     return $arr[$n];
 };
@@ -27,6 +28,7 @@ function fib2($n, $a, $b) {
         $c = $a + $b;
         $a = $b;
         $b = $c;
+        echo $i." : ".$c.PHP_EOL;
     }
     return $c;
 }
@@ -38,7 +40,17 @@ function fib3($n)
     return fib3($n-2) + fib3($n-1);
 }
 
-//var_dump(fib2(6,1,2));
+// 缓存中间结果，时间复杂度O(n)，空间复杂度O(n)
+function fib3_optimized($n, &$memo = []) {
+    if (isset($memo[$n])) return $memo[$n];
+    if ($n < 2) return $n;
+
+    $memo[$n] = fib3_optimized($n - 1, $memo) + fib3_optimized($n - 2, $memo);
+    return $memo[$n];
+}
+
+// 1 1 2 3 ...
+var_dump(fib(3,1,1));
 
 
-var_dump(fib3(4));
+var_dump(fib3_optimized(50));
